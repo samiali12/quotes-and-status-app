@@ -1,0 +1,64 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    android:id="@+id/post_card_view"
+    android:background="@color/shimmer_effect"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:id="@+id/singleQuotes"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/post_like_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_icons8_heart__1_"
+            tools:ignore="ImageContrastCheck"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"/>
+
+
+        <ImageView
+            android:id="@+id/post_copy_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icons8_copy__1_"
+            android:contentDescription="@null"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/post_share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_icons8_share__1_"
+            tools:ignore="ImageContrastCheck"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

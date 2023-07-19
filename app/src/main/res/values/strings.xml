@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">quotes_and_status</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+
+    <!-- Strings used for toggle for opening drawer layout -->
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

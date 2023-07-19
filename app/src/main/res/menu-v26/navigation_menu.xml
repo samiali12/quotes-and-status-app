@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_action"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"
+            tools:ignore="HardcodedText" />
+
+
+        <item
+            android:icon="@drawable/ic_baseline_share_24"
+            tools:ignore="HardcodedText"
+            android:title="@string/share"
+            android:id="@+id/share_us_action"
+            />
+
+        <item
+            android:id="@+id/rate_us_action"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            tools:ignore="HardcodedText"
+            android:title="@string/rate" />
+
+        <item
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            tools:ignore="HardcodedText"
+            android:title="Privacy"
+            android:id="@+id/privacy_action"
+            />
+    </group>
+
+
+</menu>
